@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Forum", serif;
+}
+
+#selected {
+    text-decoration: underline;
+}
+
+.hero {
+    background:linear-gradient(to right top, #41546f, #007ea3, #00aaab, #00d17c, #a8eb12);
+    min-width: 90vh;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 24px 32px;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+
+#ecoharmony {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0px;
+    text-decoration: none;
+    color:white;
+}
+
+.navbar .contact {
+    background-color: white;
+    color: rgb(24, 162, 107);
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+
+.hero-content {
+    padding: 0px 15%;
+}
+
+.tagline {
+    font-size: 3.5rem;
+    color: white;
+    letter-spacing: 2px;
+    padding: 32px 0px;
+    text-align: center;
+}
+
+.tagline em {
+    text-shadow: 1.5px 1.5px 2.5px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------- MAIN CONTENT ------------------------------------*/
+
+
+/* --------LION CONTENT-------- */
+.lion-info {
+    margin-bottom: 10%;
+}
+
+h3 {
+    border: 4px white solid; 
+    margin-top: 10%;
+}
+.lion-image img {
+    float:left;
+    padding: 0px 40px;
+    height: 40vh;
+    border-radius: 4px;
+    margin-bottom: px
+}
+
+.lion-content {
+    margin-top:70px;
+    margin-right: 60px
+}
+
+
+/* --------WHALE CONTENT-------- */
+.whale-image img {
+    float:right;
+    padding: 50px;
+    height: 40vh;
+    border-radius: 4px;
+}
+
+.whale-content {
+    margin-left: 60px;
+    margin-top: 20%;
+}
+
+
+
+
+/* --------WHALE CONTENT-------- */
+
+.ferrat-info {
+    margin-top: 13%;
+}
+
+h3 {
+    border: 4px white solid
+}
+.ferrat-image img {
+    float:left;
+    padding: 0px 40px;
+    height: 40vh;
+    border-radius: 4px;
+}
+
+.ferrat-content {
+    margin-top:70px;
+    margin-right: 60px
+}
