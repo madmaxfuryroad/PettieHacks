@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your App Title - Create Post</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <header class="navbar">
+            <nav class="links">
+                <a href="earthstory.html">The Earth's Story</a>
+                <a href="post.html" style="text-decoration: underline;">Post a Blog</a>
+                <a href="view_posts.html">See Posted Blogs</a>
+            </nav>
+            
+            <a id="ecoharmony" href="home.html">EcoHarmony</a>
+
+            <a href="contact.html" class="contact">Contact Us</a>
+        </header>
+    </section>
+
+    <div class="container">
+        <h1>Create a New Post</h1>
+        <form id="post-form">
+            <div class="input-container">
+                <input type="text" id="post-name" placeholder="Post Name">
+            </div>
+            <div class="input-container">
+                <textarea id="post-description" placeholder="Post Description"></textarea>
+            </div>
+            <div class="input-container">
+                <div class="file-input-container">
+                    <label for="post-files" class="custom-file-input">Upload File</label>
+                    <input type="file" id="post-files" accept="image/*" multiple>
+                </div>
+            </div>
+            <div class="button-container">
+                <button type="submit" id="post-button">Post</button>
+            </div>
+        </form>
+    </div>
+    <script src="post.js"></script>
+</body>
+</html>
